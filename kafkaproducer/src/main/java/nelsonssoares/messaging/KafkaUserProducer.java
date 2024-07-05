@@ -21,6 +21,7 @@ public class KafkaUserProducer {
         sendUser.send(userDTO).whenComplete((success, error)->{
             if(error != null){
                 logger.error("An error has occurred!");
+
             }else {
                 logger.info("Message Sent!");
             }

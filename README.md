@@ -5,14 +5,14 @@ Acompanhe o README de cada projeto para executar corretamente.
 
 # KAFKA PRODUCER DEPENDECIES
 ```
-  <dependency>
+        <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-rest-jackson</artifactId>
         </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>
-            <artifactId>quarkus-kafka-client</artifactId>
-        </dependency>
+            <artifactId>quarkus-messaging-kafka</artifactId>
+         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
