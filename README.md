@@ -24,7 +24,7 @@ Acompanhe o README de cada projeto para executar corretamente.
 
 ```
 
-#KAFKA CONSUMER DEPENDENCIES
+# KAFKA CONSUMER DEPENDENCIES
 
 ```
  <dependency>
