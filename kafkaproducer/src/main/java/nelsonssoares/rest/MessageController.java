@@ -30,7 +30,7 @@ public class MessageController {
 
     @POST
     @Path(ControllerConstants.USER)
-    public Response sendUserMessage(UserDTO user){
+    public void sendUserMessage(UserDTO user){
         log.info("Sending user: {}", user);
         userProducer.sendNewUser(user);
     }
